@@ -1,0 +1,46 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-17b85050716-32d23ec66c52c91d": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-17b8532f7a3-2f4c03d17f879c04": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "java_erp",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "java_erp",
+				"url": "jdbc:mysql://localhost:3306/java_erp",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
